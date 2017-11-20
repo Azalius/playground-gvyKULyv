@@ -1,6 +1,8 @@
 # Bonjour
 
-Nous allons vous presenter le design pattern Observer
+Dans ce playground nous allons vous presenter de design pattern Observer grace à un exemple
+
+# Un design pattern 
 
 ```java runnable
 // { autofold
