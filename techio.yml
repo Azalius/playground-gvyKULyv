@@ -1,4 +1,8 @@
-title: Simple Java Template
+title: Design Pattern Observer
 plan:
-- title: Java Snippet
-  statement: statement.md
+- title: Introduction
+  statement: introduction_design_pattern.md
+- title: Design Pattern Visiteur
+  statement: presentation_pattern_observer.md
+- title: Exemple d'utilisation
+  statement: exemple_pattern_observer.md
