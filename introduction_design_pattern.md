@@ -28,9 +28,9 @@ Un design pattern est composé de :
 
 ## Et il faut tous les utiliser?
 
-Non, pas forcement. Comme expliqué plus haut, un design pattern permet de resoudre un probléme. Il faut tout d'abord **identifier le probléme rencontré**.  
+Non, pas forcement.  
+Comme expliqué plus haut, un design pattern permet de resoudre un probléme. Il faut tout d'abord **identifier le probléme rencontré**.  
 Une fois ce probléme identifié, il faut **trouver le design pattern adapté**. En effet tous les designs patterns ne repondent pas à la meme problématique.  
 Pour finir, la solution proposé par le design pattern etant trés generique, il faut **l'adapter a la situation**.  
-
 
 
