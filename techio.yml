@@ -6,3 +6,5 @@ plan:
   statement: presentation_pattern_observer.md
 - title: Exemple d'utilisation (Java)
   statement: exemple_pattern_observer.md
+- title: Quizz
+statement: quizz.md
