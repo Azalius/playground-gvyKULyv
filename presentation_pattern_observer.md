@@ -1,1 +1,5 @@
-Coucou
+```java
+class Test {
+
+}
+```
