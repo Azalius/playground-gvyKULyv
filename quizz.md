@@ -8,8 +8,8 @@
 -[ ] Autre (merci de preciser)
 
 ?[Combienn y à t'il de design pattern? ?]
--[x] Trop
--[ ] De 20 à 50
+-[ ] Trop
+-[X] De 20 à 50
 -[ ] 1 ou 2 pas plus
 -[ ] Une douzaine
 
@@ -17,22 +17,20 @@
 -[ ] Un "patron de conception"
 -[ ] Un livre
 -[ ] Commestible
--[ ] Une solution générique pour des problemes reccurent
+-[X] Une solution générique pour des problemes reccurent
 
-?[Le design pattern Observer appartien à la famille : ?]
+?[Le design pattern Observer appartient à la famille : ?]
 -[ ] Création
 -[ ] Structure
 -[x] Comportement
 -[ ] Non
 
 ?[Le but principal du design pattern Observer est :]
--[ ] De compliquer un algorithm
--[X] Rend les algorithmes interchangeables
+-[ ] De compliquer un algorithme
+-[X] De faciliter la communication entre des composants
+-[ ] D'observer
+-[ ] De créer des nouveaux objets plus facilement
 
-?[Quel sont les principe SOLID dont le pattern Observer empêche la violation ?]
--[ ] Liskov Substitution Principle
--[ ] Dependency Inversion Principle
--[X] Single Responsibility Principle
--[X] Open-Closed Principle
+
 
 
