@@ -18,6 +18,14 @@ Il sagit en fait d'une solution generale à un probléme recurrent en développe
 Les designs patterns ont été crés par le 'Gang of Four' dans un ouvrage intitulé [Design Patterns - Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612). 
 Ils presentent dans cet ouvrage 23 design patterns ainsi que leurs principaux interets.
 
+## Mais ca ressemble à quoi un 'Design Pattern' ?
+
+Un design pattern est composé de : 
+*Nom : Permet d’identifier clairement un design pattern
+*Problématique : description du problème qu' il permet de resoudre
+*Solution : description de la solution sous forme d’un schéma UML
+
+
 ## Et il faut tous les utiliser?
 
 Non, pas forcement. Comme expliqué plus haut, un design pattern permet de resoudre un probléme. Il faut tout d'abord **identifier le probléme rencontré**.  
