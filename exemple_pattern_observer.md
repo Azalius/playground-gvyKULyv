@@ -4,6 +4,8 @@
 
 # Code Java
 
+## Eleve
+
 ```java
 import java.util.List;
 import java.util.ArrayList;
@@ -46,5 +48,63 @@ public class Eleve {
 		}
 	}
 }
+```
 
+## Observer
+
+```java
+public abstract class Observer {
+   protected Eleve eleve;
+   public abstract void update();
+}
+```
+
+## notesObserver
+
+```java
+public class notesObserver extends Observer{
+
+	public notesObserver(Eleve eleve){
+		this.eleve = eleve;
+		this.eleve.attach(this);
+	}
+
+	@Override
+	public void update() {
+		
+		float moyenne = 0;
+		
+		for(float note : eleve.getNotes()) {
+			moyenne += note;
+		}
+		
+		moyenne /= eleve.getNotes().size();
+		
+		eleve.setMoyenne(moyenne);
+	}
+
+}
+```
+
+## 
+
+```java
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Eleve eleve = new Eleve();
+		
+		new notesObserver(eleve);
+		
+		eleve.ajouterNote(15.0f);
+		System.out.println(eleve.getMoyenne());
+		eleve.ajouterNote(5.0f);
+		System.out.println(eleve.getMoyenne());
+		eleve.ajouterNote(13.0f);
+		System.out.println(eleve.getMoyenne());
+		
+	}
+	
+}
 ```
