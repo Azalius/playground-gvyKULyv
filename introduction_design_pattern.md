@@ -1,17 +1,17 @@
 # Bonjour
 
-Dans ce playground nous allons vous presenter de design pattern Observer. Nous allons aborder ce qu'est un design pattern, le probleme que permet de resoudre Observer, et enfin un exemple d'implementation
+Dans ce Playground nous allons vous presenter le design pattern Observer. Nous allons aborder ce qu'est un _design pattern_, le probléme que permet de résoudre Observer, et enfin un exemple d'implémentation en Java.
 
 # Un design pattern, késako?
 
-Le terme "Design Pattern" peut se traduire en francais par "modèle de conception" ou "patron de conception" 
-Il sagit en fait d'une solution generale à un probléme recurrent en développement logiciel.
+Le terme "Design Pattern" peut se traduire en français par "modèle de conception" où "patron de conception" 
+Il s'agit en fait d'une solution générale à un probléme recurrent en développement logiciel.
 
-## On rerouve 3 principaux types de Design Patern:
+## On rerouve 3 principaux types de design patern:
 
-*Création : permet de faciliter la creation d' objets
-*Structure : permet d'organiser, de composer et d'arranger les classes d’une application.
-*Comportement : permet de faciliter la communication entre des classes.
+* Création : permet de faciliter la création d'objets
+* Structure : permet d'organiser et d'arranger les classes d’une application.
+* Comportement : permet de faciliter la communication entre des classes.
 
 ## L'origine des Designs patterns : 
 
@@ -21,16 +21,15 @@ Ils presentent dans cet ouvrage 23 design patterns ainsi que leurs principaux in
 ## Mais ca ressemble à quoi un 'Design Pattern' ?
 
 Un design pattern est composé de :  
-*Nom : Permet d’identifier clairement un design pattern  
-*Problématique : description du problème qu' il permet de resoudre  
-*Solution : description de la solution sous forme d’un schéma UML  
-
+* Un nom : permet d’identifier clairement un design pattern  
+* Une problématique : description du problème qu' il permet de résoudre  
+* Une solution : description de la solution (sous forme d’un schéma UML)  
 
 ## Et il faut tous les utiliser?
 
-Non, pas forcement.  
+Non, pas forcément.  
 Comme expliqué plus haut, un design pattern permet de resoudre un probléme. Il faut tout d'abord **identifier le probléme rencontré**.  
-Une fois ce probléme identifié, il faut **trouver le design pattern adapté**. En effet tous les designs patterns ne repondent pas à la meme problématique.  
-Pour finir, la solution proposé par le design pattern etant trés generique, il faut **l'adapter a la situation**.  
+Une fois ce probléme identifié, il faut **trouver le design pattern adapté**. En effet tous les designs patterns ne répondent pas à la meme problématique.  
+Pour finir, la solution proposé par le design pattern etant trés générique, il faut **l'adapter a la situation**.  
 
 
