@@ -94,7 +94,7 @@ public class notesObserver extends Observer{
 import java.util.List;
 import java.util.ArrayList;
 
-public class Eleve {
+class Eleve {
 	
 	private List<Observer> observers;
 	private List<Float> notes;
@@ -133,12 +133,12 @@ public class Eleve {
 	}
 }
 
-public abstract class Observer {
+abstract class Observer {
    protected Eleve eleve;
    public abstract void update();
 }
 
-public class notesObserver extends Observer{
+class notesObserver extends Observer{
 
 	public notesObserver(Eleve eleve){
 		this.eleve = eleve;
