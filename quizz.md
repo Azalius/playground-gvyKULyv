@@ -7,14 +7,14 @@
 -[ ] Strategy
 -[ ] Autre (merci de preciser)
 
-?[Combienn y à t'il de design pattern? ?]
+?[Combienn y a t'il de design pattern? ?]
 -[ ] Trop
 -[X] De 20 à 50
 -[ ] 1 ou 2 pas plus
 -[ ] Une douzaine
 
 ?[Un design patter c'est : ?]
--[ ] Un "patron de conception"
+-[X] Un "patron de conception"
 -[ ] Un livre
 -[ ] Commestible
 -[X] Une solution générique pour des problemes reccurent
