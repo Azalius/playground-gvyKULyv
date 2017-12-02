@@ -5,9 +5,9 @@ Dans ce Playground nous allons vous presenter le design pattern Observer. Nous a
 # Un design pattern, késako?
 
 Le terme "Design Pattern" peut se traduire en français par "modèle de conception" où "patron de conception" 
-Il s'agit en fait d'une solution générale à un probléme recurrent en développement logiciel.
+Il s'agit en fait d'une solution générale à un probléme récurrent en développement logiciel.
 
-## On rerouve 3 principaux types de design patern:
+## On rerouve 3 principaux types de design pattern:
 
 * Création : permet de faciliter la création d'objets
 * Structure : permet d'organiser et d'arranger les classes d’une application.
