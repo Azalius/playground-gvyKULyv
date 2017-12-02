@@ -86,7 +86,7 @@ public class notesObserver extends Observer{
 }
 ```
 
-## 
+## Main
 
 ```java
 public class Main {
