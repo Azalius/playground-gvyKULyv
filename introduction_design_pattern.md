@@ -20,10 +20,10 @@ Ils presentent dans cet ouvrage 23 design patterns ainsi que leurs principaux in
 
 ## Mais ca ressemble à quoi un 'Design Pattern' ?
 
-Un design pattern est composé de : 
-*Nom : Permet d’identifier clairement un design pattern
-*Problématique : description du problème qu' il permet de resoudre
-*Solution : description de la solution sous forme d’un schéma UML
+Un design pattern est composé de :  
+*Nom : Permet d’identifier clairement un design pattern  
+*Problématique : description du problème qu' il permet de resoudre  
+*Solution : description de la solution sous forme d’un schéma UML  
 
 
 ## Et il faut tous les utiliser?
