@@ -86,9 +86,83 @@ public class notesObserver extends Observer{
 }
 ```
 
-## Main
+# Test
 
-```java
+```java runnable
+
+// { autofold
+import java.util.List;
+import java.util.ArrayList;
+
+public class Eleve {
+	
+	private List<Observer> observers;
+	private List<Float> notes;
+	private float moyenne;
+	
+	public Eleve() {
+		observers = new ArrayList<Observer>();
+		notes = new ArrayList<Float>();
+	}
+	
+	public void ajouterNote(float note) {
+		notes.add(note);
+		notifyAllObservers();
+	}
+	
+	public void setMoyenne(float moyenne) {
+		this.moyenne = moyenne;
+	}
+	
+	public float getMoyenne() {
+		return moyenne;
+	}
+	
+	public List<Float> getNotes() {
+		return notes;
+	}
+	
+	public void attach(Observer observer){
+		observers.add(observer);
+	}
+	
+	private void notifyAllObservers() {
+		for (Observer observer : observers) {
+			observer.update();
+		}
+	}
+}
+
+public abstract class Observer {
+   protected Eleve eleve;
+   public abstract void update();
+}
+
+public class notesObserver extends Observer{
+
+	public notesObserver(Eleve eleve){
+		this.eleve = eleve;
+		this.eleve.attach(this);
+	}
+
+	@Override
+	public void update() {
+		
+		float moyenne = 0;
+		
+		for(float note : eleve.getNotes()) {
+			moyenne += note;
+		}
+		
+		moyenne /= eleve.getNotes().size();
+		
+		eleve.setMoyenne(moyenne);
+	}
+
+}
+
+// }
+
 public class Main {
 	
 	public static void main(String[] args) {
@@ -107,4 +181,6 @@ public class Main {
 	}
 	
 }
+
+
 ```
