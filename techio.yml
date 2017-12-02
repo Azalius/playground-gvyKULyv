@@ -2,7 +2,7 @@ title: Design Pattern Observer
 plan:
 - title: Introduction
   statement: introduction_design_pattern.md
-- title: Pourquoi est-ce utile ?
+- title: Et le design pattern Observer ?
   statement: presentation_pattern_observer.md
 - title: Exemple d'utilisation (Java)
   statement: exemple_pattern_observer.md
