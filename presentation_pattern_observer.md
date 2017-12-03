@@ -4,7 +4,7 @@ On utilise le pattern Observer quand on doit gérer des évenements.
 
 # Fonctionnement
 
-Dans une classe qui doit déclencher des évenements, on ajoute
+Dans une classe qui doit déclencher des évenements, on ajoute:
 - En attribut une liste d'Observateurs
 - Une méthode permettant d'ajouter un Observateur dans la liste
 - Une autre permettant d'envoyer un signal a tous ses obsevateurs.
