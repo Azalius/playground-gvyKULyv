@@ -1,6 +1,6 @@
 # Pourquoi l'utiliser ?
 
-On utilise le pattern Observer pour gérer des évenements.
+On utilise le pattern Observer quand on doit gérer des évenements.
 
 # Fonctionnement
 
