@@ -7,7 +7,7 @@
 -[ ] Strategy
 -[ ] Autre (merci de preciser)
 
-?[Combienn y a t'il de design pattern? ?]
+?[Combien y a t'il de design pattern? ?]
 -[ ] Trop
 -[X] De 20 à 50
 -[ ] 1 ou 2 pas plus
@@ -17,7 +17,7 @@
 -[X] Un "patron de conception"
 -[ ] Un livre
 -[ ] Commestible
--[X] Une solution générique pour des problemes reccurent
+-[X] Une solution générique pour des problèmes reccurent
 
 ?[Le design pattern Observer appartient à la famille : ?]
 -[ ] Création
